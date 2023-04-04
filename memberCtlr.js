@@ -25,6 +25,7 @@ function memberCtlr(){
                 res.send(result)
             }else{
              res.send("No record")
+             console.log("sample")
             }     
         });
     }
